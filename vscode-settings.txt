@@ -1,0 +1,43 @@
+{
+  "tabnine.experimentalAutoImports": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "yaml.schemas": {
+    "file:///home/sakin/.vscode/extensions/atlassian.atlascode-3.8.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "redhat.telemetry.enabled": true,
+  "atlascode.bitbucket.enabled": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "javascript": true,
+    "go": false
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "dart.flutterSdkPath": "/home/sakin/development/flutter",
+  "powermode.enabled": true,
+  "powermode.presets": "flames",
+  "powermode.shake.enabled": false,
+  "powermode.combo.location": "off",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "[go]": {
+    
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  }
+}
