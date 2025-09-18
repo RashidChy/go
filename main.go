@@ -18,7 +18,8 @@ func main() {
 	// problems.ContainsDuplicate([]int{1, 2, 3, 1})
 	// problems.MaxProduct([]int{2, 3, -2, 4})
 	// problems.ProductExceptSelf([]int{1, 2, 3, 4})
-	problems.MaxSubArray([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}) // kadane's Algorithm
+	//problems.MaxSubArray([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}) // kadane's Algorithm
+	problems.StrStr("aaa", "aa")
 
 	// DSA
 

@@ -43,4 +43,26 @@ func main() {
 	fmt.Println("Map:", m)
 	fmt.Println("Struct:", person)
 	fmt.Println("Pointer p points to:", *p) // *p means value at p
+
+	//loops
+
+	nums := []int{10, 20, 30}
+	for idx, val := range nums {
+		fmt.Println("Index:", idx, "Value:", val)
+	}
+
+	//iterate map
+	myMap := map[string]int{"a": 1, "b": 2}
+	for key, val := range myMap {
+		fmt.Println("Key:", key, "Value:", val)
+	}
+
+	// printing strings
+
+	str := "Hello"
+
+	for i, ch := range str {
+		fmt.Printf("Index: %d, Char: %c\n", i, ch)
+	}
+
 }

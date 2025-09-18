@@ -23,3 +23,10 @@ func MajorityElement(nums []int) int {
 	}
 	return curr
 }
+
+// followup . Medium
+//https://leetcode.com/problems/majority-element-ii/description/
+
+// func majorityElement2(nums []int) []int {
+
+// }
