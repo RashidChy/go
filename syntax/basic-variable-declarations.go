@@ -1,8 +1,11 @@
 package syntax
 
-import "fmt"
+import (
+	"fmt"
+	"path"
+)
 
-func main() {
+func BaseSyntaxAction() {
 	// 1. Basic variable declarations
 	var a int = 10         // integer
 	var b float64 = 3.14   // floating-point number
@@ -64,5 +67,10 @@ func main() {
 	for i, ch := range str {
 		fmt.Printf("Index: %d, Char: %c\n", i, ch)
 	}
+
+	// path library
+
+	dir, file := path.Split("css/main.css")
+	fmt.Println(dir, file) // prints:  css/ main.css
 
 }

@@ -19,7 +19,9 @@ func main() {
 	// problems.MaxProduct([]int{2, 3, -2, 4})
 	// problems.ProductExceptSelf([]int{1, 2, 3, 4})
 	//problems.MaxSubArray([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}) // kadane's Algorithm
-	problems.StrStr("aaa", "aa")
+	//problems.StrStr("aaa", "aa")  // index of first occurance in a string
+	//fmt.Println(problems.IsAnagram("aacc", "ccac"))
+	problems.GroupAnagrams([]string{"act", "pots", "tops", "cat", "stop", "hat"})
 
 	// DSA
 
