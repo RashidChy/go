@@ -21,7 +21,8 @@ func main() {
 	//problems.MaxSubArray([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}) // kadane's Algorithm
 	//problems.StrStr("aaa", "aa")  // index of first occurance in a string
 	//fmt.Println(problems.IsAnagram("aacc", "ccac"))
-	problems.GroupAnagrams([]string{"act", "pots", "tops", "cat", "stop", "hat"})
+	//problems.GroupAnagrams([]string{"act", "pots", "tops", "cat", "stop", "hat"})
+	problems.TopKFrequent([]int{1, 2, 1, 2, 1, 2, 3, 1, 3, 2}, 2)
 
 	// DSA
 
