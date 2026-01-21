@@ -22,7 +22,8 @@ func main() {
 	//problems.StrStr("aaa", "aa")  // index of first occurance in a string
 	//fmt.Println(problems.IsAnagram("aacc", "ccac"))
 	//problems.GroupAnagrams([]string{"act", "pots", "tops", "cat", "stop", "hat"})
-	problems.TopKFrequent([]int{1, 2, 1, 2, 1, 2, 3, 1, 3, 2}, 2)
+	//problems.TopKFrequent([]int{1, 2, 1, 2, 1, 2, 3, 1, 3, 2}, 2)
+	problems.MoveZeroes([]int{1, 1, 1, 0, 0, 1, 0, 3, 12})
 
 	// DSA
 
