@@ -23,7 +23,8 @@ func main() {
 	//fmt.Println(problems.IsAnagram("aacc", "ccac"))
 	//problems.GroupAnagrams([]string{"act", "pots", "tops", "cat", "stop", "hat"})
 	//problems.TopKFrequent([]int{1, 2, 1, 2, 1, 2, 3, 1, 3, 2}, 2)
-	problems.MoveZeroes([]int{1, 1, 1, 0, 0, 1, 0, 3, 12})
+	//problems.MoveZeroes([]int{1, 1, 1, 0, 0, 1, 0, 3, 12})
+	problems.MaxArea([]int{1, 8, 6, 2, 5, 4, 8, 3, 7})
 
 	// DSA
 
